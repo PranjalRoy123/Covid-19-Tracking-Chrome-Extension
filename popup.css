@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: rgb(12, 2, 46);
+    width: 320px;
+    height: 230px;
+    border: 1px solid;
+}
+
+body {
+    padding: 5px;
+}
+
+#header {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    padding: 3px;
+    margin: 3px;
+}
+
+#worldwide-header {
+    color: rgb(138, 238, 175);
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 3px;
+    margin: 0 4px 4px 4px;
+}
+
+.world {
+    margin: 6px;
+}
+
+.world > * {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding: 3px;
+    margin: 3px;
+    margin-left: 0;
+}
+
+.value {
+    color:rgb(152, 81, 191);
+    letter-spacing: 1px;
+}
+
+.colon {
+    color: rgb(25, 54, 204);
+    padding: 0px;
+    margin: 0px;
+}
+
+#cases > .label {
+    color:rgb(218, 144, 8);
+}
+
+#deaths > .label {
+    color: rgb(240, 10, 10);
+}
+
+#active-cases > .label{
+    color: rgb(64, 130, 187);
+}
+
+#recovery > .label {
+    color: rgb(8, 154, 0);
+}
