@@ -1,1 +1,1 @@
-# Coronavirus Tracker
+<h1>Coronavirus Tracking Chrome Extension</h1>
